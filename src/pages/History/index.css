@@ -1,0 +1,5 @@
+.activity-list {
+  & .date-group {
+    color: var(--subtitle-text-color);
+  }
+}

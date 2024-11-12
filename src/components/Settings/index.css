@@ -1,0 +1,66 @@
+.settings {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 32px);
+  padding: 6px 16px;
+
+  & .settings-switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+    border-radius: 99px;
+    height: 32px;
+    background-color: var(--secondary-bg-color);
+
+    & .switcher {
+      position: absolute;
+      padding: 7px 10px;
+      margin: 2px;
+      height: calc(100% - 19px);
+      width: calc(50% - 22px);
+      border-radius: 99px;
+      background-color: var(--app-bg-color);
+      border: 0.5px solid rgba(0, 0, 0, 0.04);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12), 0 3px 1px rgba(0, 0, 0, 0.04);
+      transition: left 0.3s;
+
+      &.left {
+        left: 0;
+      }
+
+      &.right {
+        left: calc(100% - 44px);
+      }
+    }
+
+    & .icon {
+      color: var(--hint-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 28px;
+      z-index: 1;
+
+      & span {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: var(--font-weight-semibold);
+      }
+
+      &.active {
+        color: var(--text-color);
+      }
+
+      & svg {
+        fill: currentColor;
+      }
+    }
+  }
+}

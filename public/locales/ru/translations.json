@@ -1,0 +1,111 @@
+{
+  "common": {
+    "open_store": "Открыть магазин",
+    "dates": {
+      "month_1": "Январь",
+      "month_2": "Февраль",
+      "month_3": "Март",
+      "month_4": "Апрель",
+      "month_5": "Май",
+      "month_6": "Июнь",
+      "month_7": "Июль",
+      "month_8": "Август",
+      "month_9": "Сентябрь",
+      "month_10": "Октябрь",
+      "month_11": "Ноябрь",
+      "month_12": "Декабрь"
+    }
+  },
+  "menu": {
+    "store": "Магазин",
+    "gifts": "Подарки",
+    "leaderboard": "Лидерборд",
+    "profile": "Профиль"
+  },
+  "store": {
+    "title": "Покупайте и Отправляйте Подарки",
+    "subtitle": "Уникальные подарки для всех от Crypto Pay.",
+    "sold_out": "Распродано",
+    "quantity": "{{sold}} из {{quantity}}"
+  },
+  "store_gift": {
+    "main_button": "Купить Подарок",
+    "subtitle": "Приобретите этот подарок, чтобы иметь возможность подарить его другому пользователю.",
+    "quantity": "{{sold}} из {{quantity}}",
+    "recently_actions": "Недавние действия",
+    "actions": {
+      "transaction": "Покупка подарка",
+      "transfer": "Отпрака подарка"
+    },
+    "bought_gift": "купил(а) подарок",
+    "sent_gift": "отправил(а) подарок к"
+  },
+  "gifts": {
+    "empty": "У вас пока нет подарков.",
+    "title": "Отправьте Подарки в Telegram",
+    "subtitle": "Отправляйте пользователям подарки, которые можно хранить в их профиле приложения.",
+    "send": "Отправить"
+  },
+  "leaderboard": {
+    "search": "Поиск",
+    "you": "Вы",
+    "gifts_one": "{{gifts}} подарок",
+    "gifts_few": "{{gifts}} подарка",
+    "gifts_many": "{{gifts}} подарков"
+  },
+  "user": {
+    "empty": "Вы можете купить подарок, чтобы получить подарок в ответ.",
+    "gifts_received_one": "{{gifts}} подарок получен",
+    "gifts_received_few": "{{gifts}} подарка получено",
+    "gifts_received_many": "{{gifts}} подарков получено",
+    "recent_actions": "Последние действия ›",
+    "gift_quantity": "1 из {{quantity}}"
+  },
+  "gift_popup": {
+    "close": "Закрыть",
+    "send_gift_to_contact": "Отправить Подарок Контакту",
+    "send_gift": "Отправить Подарок",
+    "gift": "Подарок",
+    "date": "Дата",
+    "price": "Цена",
+    "availability": "Доступность",
+    "from": "От",
+    "at": "в"
+  },
+  "user_activity": {
+    "empty": {
+      "title": "История Пуста",
+      "subtitle": "Дарите и получайте подарки, чтобы здесь что-то было."
+    },
+    "actions": {
+      "buy": "Покупка",
+      "send": "Отправка",
+      "receive": "Получение"
+    },
+    "title": "Последние Действия",
+    "subtitle": "Здесь ваша история действий.",
+    "to": "к ",
+    "from": "от "
+  },
+  "gift_purchased": {
+    "main_button": "Отправить Подарок",
+    "secondary_button": "Открыть Сагазин",
+    "title": "Подарок Приобретен",
+    "subtitle": "Подарок <b>{{name}}</b> был приобретен за <b>{{price}} {{currency}}</b>.",
+    "notification": {
+      "title": "Вы Купили Подарок",
+      "subtitle": "Теперь отправьте его своему другу.",
+      "button": "Отправить"
+    }
+  },
+  "gift_received": {
+    "main_button": "Открыть Профиль",
+    "title": "Подарок Получен",
+    "subtitle": "Вы получили подарок <b>{{name}}</b>.",
+    "notification": {
+      "title": "Подарок Получен",
+      "subtitle": "{{name}} от {{fullName}}.",
+      "button": "Просмотреть"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+main {
+  transition:
+      filter var(--page-animation-duration) ease-out,
+      transform var(--page-animation-duration) ease-out;
+
+  &.with-menu {
+    padding-bottom: var(--bottom-bar-height);
+  }
+
+  &.hidden.out {
+    filter: blur(5px);
+    transform: scale(0.9);
+  }
+
+  &.hidden.in .animate {
+    filter: blur(5px);
+    transform: scale(0.96);
+  }
+
+  & .animate {
+    transition:
+        filter var(--page-animation-duration) ease-out,
+        transform var(--page-animation-duration) ease-out;
+  }
+}

@@ -1,0 +1,6 @@
+.gift-purchased-skeleton {
+  width: calc(100% - 72px);
+  transform: translate(36px, calc(50vw + 72px));
+  aspect-ratio: 1;
+  border-radius: 16px;
+}

@@ -1,0 +1,109 @@
+{
+  "common": {
+    "open_store": "Open Store",
+    "dates": {
+      "month_1": "January",
+      "month_2": "February",
+      "month_3": "March",
+      "month_4": "April",
+      "month_5": "May",
+      "month_6": "June",
+      "month_7": "July",
+      "month_8": "August",
+      "month_9": "September",
+      "month_10": "October",
+      "month_11": "November",
+      "month_12": "December"
+    }
+  },
+  "menu": {
+    "store": "Store",
+    "gifts": "Gifts",
+    "leaderboard": "Leaderboard",
+    "profile": "Profile"
+  },
+  "store": {
+    "title": "Buy and Send Gifts",
+    "subtitle": "Unique gifts for everyone by Crypto Pay.",
+    "sold_out": "Sold Out",
+    "quantity": "{{sold}} of {{quantity}}"
+  },
+  "store_gift": {
+    "main_button": "Buy a Gift",
+    "subtitle": "Purchase this gift for the opportunity to give it to another user.",
+    "quantity": "{{sold}} of {{quantity}}",
+    "recently_actions": "Recently actions",
+    "actions": {
+      "transaction": "Buy gift",
+      "transfer": "Send gift"
+    },
+    "bought_gift": "bought a gift",
+    "sent_gift": "sent gift to"
+  },
+  "gifts": {
+    "empty": "You don't have any gifts yet.",
+    "title": "Send Gifts in Telegram",
+    "subtitle": "Send gifts to users that can be stored in their app profile.",
+    "send": "Send"
+  },
+  "leaderboard": {
+    "search": "Search",
+    "you": "You",
+    "gifts_one": "{{gifts}} gift",
+    "gifts_other": "{{gifts}} gifts"
+  },
+  "user": {
+    "empty": "You can buy a gift to receive a gift in return.",
+    "gifts_received_one": "{{gifts}} gift received",
+    "gifts_received_other": "{{gifts}} gifts received",
+    "recent_actions": "Recent Actions ›",
+    "gift_quantity": "1 of {{quantity}}"
+  },
+  "gift_popup": {
+    "close": "Close",
+    "send_gift_to_contact": "Send Gift to Contact",
+    "send_gift": "Send Gift",
+    "gift": "Gift",
+    "date": "Date",
+    "price": "Price",
+    "availability": "Availability",
+    "from": "From",
+    "at": "at"
+  },
+  "user_activity": {
+    "empty": {
+      "title": "History is Empty",
+      "subtitle": "Give and receive gifts so there's something here."
+    },
+    "actions": {
+      "buy": "Buy",
+      "send": "Sent",
+      "receive": "Receive"
+    },
+    "title": "Recent Actions",
+    "subtitle": "Here is your action history.",
+    "to": "to ",
+    "from": "from "
+  },
+  "gift_purchased": {
+    "main_button": "Send Gift",
+    "secondary_button": "Open Store",
+    "title": "Gift Purchased",
+    "subtitle": "The <b>{{name}}</b> gift was purchased for <b>{{price}} {{currency}}</b>.",
+    "notification": {
+      "title": "You Bought a Gift",
+      "subtitle": "Now send it to your friend.",
+      "button": "Send"
+    }
+  },
+  "gift_received": {
+    "main_button": "Open Profile",
+    "title": "Gift Received",
+    "subtitle": "You have received the gift <b>{{name}}</b>.",
+    "notification": {
+      "title": "Gift Received",
+      "subtitle": "{{name}} from {{fullName}}.",
+      "button": "View"
+    }
+  }
+}

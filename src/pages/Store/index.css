@@ -1,0 +1,15 @@
+.store-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 12px;
+
+  & > div {
+    flex-basis: 32%;
+    flex-grow: 1;
+  }
+
+  & .skeleton {
+    border-radius: 12px;
+  }
+}

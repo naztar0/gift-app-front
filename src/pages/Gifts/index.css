@@ -1,0 +1,15 @@
+.transactions-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  gap: 8px;
+
+  & > div {
+    flex-basis: 30%;
+    flex-grow: 1;
+  }
+
+  & .skeleton {
+    border-radius: 12px;
+  }
+}

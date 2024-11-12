@@ -1,0 +1,107 @@
+/* noinspection CssUnresolvedCustomProperty */
+:root {
+  --white: #FFF;
+  --black: #000;
+  --accent-blue: #007AFF;
+  --accent-purple: #AF51DE;
+  --accent-green: #35C759;
+  --accent-gold: #F1AA05;
+
+  --primary-color: var(--tg-theme-accent-text-color, #007AFF);
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 900;
+
+  --separator-width: 0.33px;
+  --bottom-bar-height: 59px;
+
+  --page-animation-duration: 0.3s;
+}
+
+body.light {
+  --dark-color: #2D2D2D;
+  --app-bg-color: #FFFFFF;
+  --text-color: #222222;
+  --hint-color: #A8A8A8;
+  --link-color: var(--primary-color);
+  --button-color: var(--primary-color);
+  --button-text-color: #FFFFFF;
+  --secondary-bg-color: #F0F0F0;
+  --header-bg-color: #F0F0F0;
+  --bottom-bar-bg-color: #F0F0F0;
+  --accent-text-color: var(--primary-color);
+  --section-bg-color: #FFFFFF;
+  --section-header-text-color: color-mix(in srgb, var(--primary-color), var(--white) 20%);
+  --section-separator-color: #D9D9D9;
+  --subtitle-text-color: #82868A;
+  --destructive-text-color: #CC2929;
+
+  --popup-bg-color: var(--secondary-bg-color);
+  --popup-secondary-bg-color: var(--app-bg-color);
+  --table-stroke-color: var(--section-separator-color);
+  --input-bg-color: var(--secondary-bg-color);
+}
+
+body.dark {
+  --dark-color: #000000;
+  --app-bg-color: #1C1C1E;
+  --text-color: #ffffff;
+  --hint-color: #8E8E93;
+  --link-color: var(--primary-color);
+  --button-color: color-mix(in hsl, var(--primary-color), var(--black) 20%);
+  --button-text-color: #ffffff;
+  --secondary-bg-color: #2C2C2E;
+  --header-bg-color: #1E1E1E;
+  --bottom-bar-bg-color: #1E1E1E;
+  --accent-text-color: var(--primary-color);
+  --section-bg-color: color-mix(in srgb, var(--primary-color), var(--black) 60%);
+  --section-header-text-color: color-mix(in srgb, var(--primary-color), var(--white) 30%);
+  --section-separator-color: color-mix(in srgb, #3C3C43, transparent 36%);
+  --subtitle-text-color:  #8E8E93;
+  --destructive-text-color: #ee686f;
+
+  --popup-bg-color: var(--app-bg-color);
+  --popup-secondary-bg-color: var(--secondary-bg-color);
+  --table-stroke-color: color-mix(in srgb, var(--white), transparent 80%);
+  --input-bg-color: color-mix(in srgb, var(--black), transparent 50%);
+}
+
+/* noinspection CssUnresolvedCustomProperty */
+body.system {
+  --app-bg-color: var(--tg-theme-bg-color);
+  --text-color: var(--tg-theme-text-color);
+  --hint-color: var(--tg-theme-hint-color);
+  --link-color: var(--tg-theme-link-color);
+  --button-color: var(--tg-theme-button-color);
+  --button-text-color: var(--tg-theme-button-text-color);
+  --secondary-bg-color: var(--tg-theme-secondary-bg-color);
+  --header-bg-color: var(--tg-theme-header-bg-color);
+  --bottom-bar-bg-color: var(--tg-theme-bottom-bar-bg-color);
+  --accent-text-color: var(--tg-theme-accent-text-color);
+  --section-bg-color: var(--tg-theme-section-bg-color);
+  --section-header-text-color: var(--tg-theme-section-header-text-color);
+  --section-separator-color: var(--tg-theme-section-separator-color);
+  --subtitle-text-color: var(--tg-theme-subtitle-text-color);
+  --destructive-text-color: var(--tg-theme-destructive-text-color);
+}
+
+body {
+  --tab-bar-icons-color: var(--subtitle-text-color);
+  --tab-bar-label-color: var(--subtitle-text-color);
+  --tab-bar-color: color-mix(in srgb, var(--bottom-bar-bg-color), transparent 25%);
+
+  --notification-bg-color: color-mix(in srgb, var(--dark-color), transparent 20%);
+  --notification-text-color: var(--white);
+  --notification-button-text-color: var(--accent-text-color);
+
+  --popup-close-bg-color: color-mix(in srgb, var(--hint-color), transparent 80%);
+  --popup-close-text-color: var(--hint-color);
+
+
+  --badge-bg-color: color-mix(in srgb, var(--subtitle-text-color), transparent 80%);
+  --badge-text-color: var(--subtitle-text-color);
+}

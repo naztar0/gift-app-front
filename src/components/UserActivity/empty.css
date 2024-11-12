@@ -1,0 +1,30 @@
+.user-history-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-wrap: pretty;
+  padding: 32px;
+  height: calc(100vh - 64px);
+  color: var(--text-color);
+  background: var(--secondary-bg-color);
+
+  & img {
+    width: 100px;
+    height: 100px;
+  }
+
+  & .title {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 32px;
+  }
+
+  & .subtitle {
+    font-size: 17px;
+    font-weight: var(--font-weight-regular);
+    line-height: 22px;
+  }
+}

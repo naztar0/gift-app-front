@@ -1,0 +1,62 @@
+.store-gift {
+  --gift-background: #fff;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 12px;
+  max-width: calc((100% - 12px) / 2);
+  /*noinspection CssUnknownTarget*/
+  background:
+      linear-gradient(
+          color-mix(in srgb, var(--gift-background), transparent 80%),
+          color-mix(in srgb, var(--gift-background), transparent 94%)),
+      url("/images/pattern.svg") center;
+  background-size: 200% 100%;
+
+  & .quantity {
+    font-size: 13px;
+    font-weight: var(--font-weight-regular);
+    line-height: 18px;
+    color: var(--hint-color);
+    position: absolute;
+    top: 8px;
+    right: 12px;
+  }
+
+  & .gift-animation-box {
+    width: 128px;
+    height: 128px;
+    margin-top: 34px;
+  }
+
+  & .name {
+    font-size: 17px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 22px;
+    color: var(--text-color);
+    margin-top: 4px;
+    padding: 0 6px;
+    text-align: center;
+  }
+
+  & .buy {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: var(--font-weight-semibold);
+    color: var(--button-text-color);
+    background-color: var(--button-color);
+    padding: 6px 16px 6px 12px;
+    margin-top: 12px;
+    border-radius: 99px;
+
+    &:disabled {
+      padding: 6px 16px;
+      background-color: color-mix(in srgb, var(--hint-color), transparent 90%);
+      color: var(--hint-color);
+      line-height: 24px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.leaderboard-item {
+  --avatar-size: 40px;
+  background: var(--app-bg-color);
+
+  & .leaderboard-row-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+    & .name {
+      font-size: 17px;
+      line-height: 22px;
+      font-weight: var(--font-weight-medium);
+      color: var(--text-color);
+    }
+
+    & .badge {
+      display: flex;
+      align-items: center;
+      font-size: 11px;
+      line-height: 14px;
+      height: fit-content;
+      font-weight: var(--font-weight-medium);
+      color: var(--badge-text-color);
+      background-color: var(--badge-bg-color);
+      padding: 0 4px;
+      border-radius: 4px;
+    }
+  }
+
+  & .leaderboard-row-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    color: var(--primary-color);
+
+    & svg {
+      width: 11px;
+      height: 12px;
+      fill: currentColor;
+    }
+
+    & span {
+      font-size: 13px;
+      line-height: 16px;
+      font-weight: var(--font-weight-regular);
+    }
+  }
+
+  & .leaderboard-rank {
+    display: flex;
+
+    & span {
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: var(--font-weight-medium);
+      color: var(--subtitle-text-color);
+    }
+
+    & img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

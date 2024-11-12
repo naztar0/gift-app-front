@@ -1,0 +1,110 @@
+header.page-header {
+  padding: 24px 8px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+
+  & > div {
+    display: inherit;
+    flex-direction: inherit;
+    gap: inherit;
+  }
+
+  & .title {
+    font-size: 24px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 32px;
+    color: var(--text-color);
+  }
+
+  & div.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    & svg {
+      width: 48px;
+      height: 48px;
+      fill: var(--primary-color);
+    }
+  }
+
+  & .subtitle {
+    font-size: 17px;
+    font-weight: var(--font-weight-regular);
+    line-height: 22px;
+    color: var(--subtitle-text-color);
+
+  }
+
+  & .compact {
+    padding: 0 10%;
+  }
+}
+
+.list-title {
+  padding: 24px 16px 12px 16px;
+  font-size: 13px;
+  font-weight: var(--font-weight-regular);
+  line-height: 18px;
+  color: var(--section-header-text-color);
+  text-transform: uppercase;
+}
+
+.list-item {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+
+  &:not(:last-child) .list-row::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: var(--separator-width);
+    background: var(--section-separator-color);
+    position: absolute;
+    bottom: -10px;
+  }
+
+  & .list-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+  }
+
+  & .list-row-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    & .list-row-title {
+      font-size: 13px;
+      font-weight: var(--font-weight-regular);
+      line-height: 16px;
+      letter-spacing: 0.1px;
+      color: var(--subtitle-text-color);
+    }
+
+    & .list-row-description {
+      font-size: 17px;
+      font-weight: var(--font-weight-medium);
+      line-height: 22px;
+      color: var(--text-color);
+    }
+  }
+
+  & .list-row-end {
+    font-size: 15px;
+    font-weight: var(--font-weight-medium);
+    line-height: 22px;
+    color: var(--text-color);
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,16 @@
+.leaderboard-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--bottom-bar-height));
+
+  & .leaderboard-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  & .leaderboard-me {
+    bottom: var(--bottom-bar-height);
+    border-top: var(--separator-width) solid var(--section-separator-color);
+  }
+}

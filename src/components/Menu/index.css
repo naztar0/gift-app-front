@@ -1,0 +1,49 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: var(--separator-width) solid var(--section-separator-color);
+  padding-top: 8px;
+  z-index: 1;
+  background-color: var(--tab-bar-color);
+  backdrop-filter: blur(100px);
+
+  & .tab-bar-buttons {
+    display: flex;
+    flex-direction: row;
+
+    & button {
+      height: 50px;
+      padding: 4px;
+      gap: 4px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: transparent;
+      transition: color 0.3s;
+
+      &.active * {
+        color: var(--button-color);
+      }
+
+      & .menu-icon {
+        width: 26px;
+        height: 26px;
+        color: var(--tab-bar-icons-color);
+
+        & svg path {
+          fill: currentColor;
+        }
+      }
+
+      & span {
+        line-height: 12px;
+        font-size: 10px;
+        font-weight: var(--font-weight-medium);
+        color: var(--tab-bar-label-color);
+      }
+    }
+  }
+}

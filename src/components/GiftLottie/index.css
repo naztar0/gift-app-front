@@ -1,0 +1,13 @@
+.gift-animation-box {
+  display: flex;
+
+  & img, & .lf-player-container, & .animation {
+    width: inherit;
+    height: inherit;
+    display: inherit;
+  }
+
+  & .lf-player-container:not(:has(.animation.loaded)) {
+    display: none;
+  }
+}

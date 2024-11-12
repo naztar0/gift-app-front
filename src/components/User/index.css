@@ -1,0 +1,102 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 8px;
+
+  & .user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    & .user-avatar {
+      --avatar-size: 100px;
+      position: relative;
+
+      & .user-rank {
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--subtitle-text-color);
+        padding: 0 8px;
+        border-radius: 99px;
+        border: 2px solid var(--app-bg-color);
+        z-index: 2;
+
+        &.fixed {
+          position: fixed;
+          top: 94px;
+          bottom: auto;
+        }
+
+        &.rank-1 {
+          background-color: var(--accent-gold);
+        }
+
+        & span {
+          font-size: 14px;
+          font-weight: var(--font-weight-medium);
+          line-height: 22px;
+          color: var(--white);
+        }
+      }
+    }
+
+    & .user-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+
+      & .name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+
+        & span {
+          font-size: 24px;
+          font-weight: var(--font-weight-semibold);
+          line-height: 32px;
+          color: var(--text-color);
+        }
+
+        & svg {
+          width: 24px;
+          height: 24px;
+          fill: var(--primary-color);
+        }
+      }
+
+      & .gifts {
+        font-size: 17px;
+        font-weight: var(--font-weight-regular);
+        line-height: 22px;
+        color: var(--subtitle-text-color);
+      }
+    }
+  }
+
+  & .user-history {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    color: var(--primary-color);
+
+    & span {
+      font-size: 17px;
+      font-weight: var(--font-weight-medium);
+      line-height: 22px;
+    }
+
+    & svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+  }
+}

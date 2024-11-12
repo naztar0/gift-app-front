@@ -1,0 +1,28 @@
+.currency-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  &.button {
+    background: none;
+    height: 24px;
+    width: 24px;
+  }
+
+  &.default {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+
+    &.usdt {
+      background: #009393;
+    }
+    &.ton {
+      background: #35AFF1;
+    }
+    &.eth {
+      background: #627EEA;
+    }
+  }
+}

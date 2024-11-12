@@ -1,0 +1,24 @@
+.gift-activity-avatar {
+  --avatar-size: 40px;
+  position: relative;
+
+  & svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: 3px;
+    right: -3px;
+
+    &.buy .action-icon-bg {
+      fill: var(--accent-blue);
+    }
+
+    &.send .action-icon-bg {
+      fill: var(--accent-green);
+    }
+
+    & .action-icon-outline {
+      fill: var(--app-bg-color);
+    }
+  }
+}

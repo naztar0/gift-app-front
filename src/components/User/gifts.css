@@ -1,0 +1,16 @@
+.user-gifts-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 16px;
+  gap: 8px;
+  overflow-y: auto;
+
+  & > div {
+    flex-basis: 30%;
+    flex-grow: 1;
+  }
+
+  & .skeleton {
+    border-radius: 12px;
+  }
+}
