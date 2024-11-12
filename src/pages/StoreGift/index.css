@@ -4,8 +4,8 @@
 
   & .gift-image-box {
     padding: 16px 16px 0 16px;
-    aspect-ratio: 1;
-    max-height: 400px;
+    width: calc(100vw - 32px);
+    height: calc(100vw - 32px);
 
     & .gift-image {
       width: 100%;
