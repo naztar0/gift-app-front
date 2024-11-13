@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Trans, useTranslation } from 'react-i18next';
 import { mainButton } from '@telegram-apps/sdk-react';
+import { EmptyLottie } from '@/components/EmptyLottie';
 import './empty.css';
 
 
@@ -24,7 +25,7 @@ export const Empty = () => {
 
   return (
     <div className="user-history-empty">
-      <img src="/images/balloons.png" alt="No gifts" />
+      <EmptyLottie />
       <span className="title"><Trans i18nKey="user_activity.empty.title" /></span>
       <span className="subtitle"><Trans i18nKey="user_activity.empty.subtitle" /></span>
     </div>

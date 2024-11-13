@@ -10,11 +10,6 @@
   color: var(--text-color);
   background: var(--secondary-bg-color);
 
-  & img {
-    width: 100px;
-    height: 100px;
-  }
-
   & .title {
     margin-top: 16px;
     font-size: 24px;

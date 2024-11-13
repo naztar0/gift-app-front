@@ -1,0 +1,11 @@
+.empty-lottie {
+  & img, & .lf-player-container, & .animation {
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+
+  & .lf-player-container:not(:has(.animation.loaded)) {
+    display: none;
+  }
+}
